@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lufei-hair-salon/static/css/main.167a6234.css",
+    "main.js": "/lufei-hair-salon/static/js/main.6d6b5de4.js",
+    "static/js/453.eb01b3d1.chunk.js": "/lufei-hair-salon/static/js/453.eb01b3d1.chunk.js",
+    "static/media/herobg1.jpg": "/lufei-hair-salon/static/media/herobg1.d13cec9dac554d917997.jpg",
+    "static/media/salonbooking.jpg": "/lufei-hair-salon/static/media/salonbooking.d7b740f2b1dbf9dc7ed4.jpg",
+    "static/media/visionimg.jpg": "/lufei-hair-salon/static/media/visionimg.fcee658533ace6b3b06c.jpg",
+    "static/media/icon-instagram.svg": "/lufei-hair-salon/static/media/icon-instagram.5ff696ec6145b23a735967b09523bf23.svg",
+    "index.html": "/lufei-hair-salon/index.html",
+    "static/media/icon-facebook.svg": "/lufei-hair-salon/static/media/icon-facebook.ae1500a7c5f300ebfb8a05225acaebd7.svg",
+    "main.167a6234.css.map": "/lufei-hair-salon/static/css/main.167a6234.css.map",
+    "main.6d6b5de4.js.map": "/lufei-hair-salon/static/js/main.6d6b5de4.js.map",
+    "453.eb01b3d1.chunk.js.map": "/lufei-hair-salon/static/js/453.eb01b3d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.167a6234.css",
+    "static/js/main.6d6b5de4.js"
+  ]
+}
