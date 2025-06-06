@@ -13,7 +13,7 @@ function FooterSection() {
                         <p className="footer-copyright">©Lufei Hair Salon | All rights reserved</p>
 
                     </Col>
-                    <Col className="align-self-center footer-social">
+                    <Col className="footer-social">
                         <div className="footer-social-div">
                             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                                 <img src={ instagramIcon } className="footer-icon"></img>

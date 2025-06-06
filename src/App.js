@@ -7,13 +7,11 @@ import BookingPage from './pages/bookingpage';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/book" element={<BookingPage />} />
-        <Route path="/services" element={<ServicesPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/services" element={<ServicesPage />} />
+      <Route path="/booking" element={<BookingPage />} />
+    </Routes>
   );
 }
 
