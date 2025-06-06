@@ -1,0 +1,41 @@
+.vision-div {
+    background-color: var(--soft-gray-color);
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-container {
+
+}
+
+.vision-row {
+    align-items: center;
+}
+
+.vision-img {
+    max-width: 30vw;
+}
+
+.textbox {
+    background-color: var(--lilac-color);
+    max-width: 300px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-title {
+    font-size: 48px;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+.vision-description {
+    margin-top: 28px;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}

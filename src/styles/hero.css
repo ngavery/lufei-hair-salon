@@ -1,0 +1,51 @@
+.hero {
+    background-image: url('../assets/herobg1.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 96px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.hero-subtitle {
+    font-size: 48px;
+    font-family: 'Abhaya Libre', serif;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    background-color: var(--pink-color) !important;
+    height: 75px;
+    width: 200px;
+    border: none !important;
+    color: var(--dark-color) !important;
+    font-size: 24px !important;
+    font-family: 'Abel', sans-serif !important;
+
+}
+
+.hero-btn:hover {
+    background-color: #c29fa8 !important;
+}
+
+
+

@@ -1,0 +1,42 @@
+.navbar {
+    background-color: white;
+    min-height: 10vh;
+}
+
+.navbar-brand.navbar-logo {
+      font-family: 'Abril Fatface', cursive;
+      font-size: 40px;
+}
+
+.navbar .nav-link {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+}
+
+.nav-items .nav-link{
+    margin-right: 48px;
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+.nav-items .nav-link:hover {
+    color: var(--lilac-color);
+}
+
+.navbar .navbar-book-btn {
+    font-family: 'Abel', sans-serif;
+    background-color: var(--lilac-color);
+    font-size: 18px;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-book-btn:hover {
+    background-color: #9e96ac !important;
+}
+
+
+.navbar-collapse {
+
+}

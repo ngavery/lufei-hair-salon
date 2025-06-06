@@ -1,0 +1,59 @@
+.footer-div {
+    background-color: var(--dark-color);
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 58px;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.footer-copyright {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+.footer-social-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-icon {
+    width: 35px;
+    height: 35px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.avery {
+    color: var(--pink-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.avery:hover {
+    color: #c29fa8;
+}

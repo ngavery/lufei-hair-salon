@@ -1,0 +1,28 @@
+.info-div {
+    background-color: var(--lilac-color);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.info-container {
+
+}
+
+.info-col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.info-title {
+  font-size: 48px;
+  font-family: 'Abhaya Libre', sans-serif;
+  font-weight: bold;
+}
+
+.info-paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
