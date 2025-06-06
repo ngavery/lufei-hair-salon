@@ -6,7 +6,7 @@ function SiteNavbar() {
   return (
     <Navbar fixed="top" expand="lg" bg="white" variant="light" className="navbar">
       <Container>
-        <Navbar.Brand href="/" className="navbar-logo">lufei</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className="navbar-logo">lufei</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-3 nav-items">
