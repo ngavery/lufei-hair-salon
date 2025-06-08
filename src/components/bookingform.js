@@ -40,7 +40,7 @@ function BookingForm() {
     <div className="form-div">
       <Form onSubmit={handleSubmit}>
 
-        <h1 className="form-title">Booking Form</h1>
+        <h2 className="form-subtitle">Fill out the form below to book an appointment with us!</h2>
 
         {submitted && isValid && (
           <Alert variant="success">🎉 Appointment request submitted!</Alert>
@@ -50,7 +50,7 @@ function BookingForm() {
           <Alert variant="danger">Please fill in all fields.</Alert>
         )}
 
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 booking-form">
           <Form.Label>Full name</Form.Label>
           <Form.Control
             type="text"
@@ -60,7 +60,7 @@ function BookingForm() {
           />
         </Form.Group>
 
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 booking-form">
           <Form.Label>Email address</Form.Label>
           <Form.Control
             type="email"
@@ -70,7 +70,7 @@ function BookingForm() {
           />
         </Form.Group>
 
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 booking-form">
           <Form.Label>Phone number</Form.Label>
           <Form.Control
             type="tel"
@@ -80,7 +80,7 @@ function BookingForm() {
           />
         </Form.Group>
 
-        <Form.Group className="mb-3">
+        <Form.Group className="mb-3 booking-form">
           <Form.Label>Service</Form.Label>
           <Form.Select
             name="service"
@@ -88,14 +88,16 @@ function BookingForm() {
             onChange={handleChange}
           >
             <option value=""></option>
-            <option value="cut">Cut & Style</option>
+            <option value="cut">Cut & Style - Women</option>
+            <option value="Cut & Style - Men">Cut & Style - Men</option>
             <option value="color">Colouring</option>
             <option value="highlight">Highlights</option>
+            <option value="Updo">Updo</option>
           </Form.Select>
         </Form.Group>
 
-        <Form.Group className="mb-3">
-          <Form.Label>Preferred Date</Form.Label>
+        <Form.Group className="mb-3 booking-form">
+          <Form.Label>Date</Form.Label>
           <Form.Control
             type="date"
             name="date"
@@ -105,10 +107,36 @@ function BookingForm() {
           />
         </Form.Group>
 
+        <Form.Group className="mb-3 booking-form">
+
+        <Form.Label className=" booking-form">Time</Form.Label>
+          <Form.Select
+            name="time"
+            value={formData.time}
+            onChange={handleChange}
+          >
+            <option value="">Select a time</option>
+            <option value="09:00">9:00 AM</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="13:00">1:00 PM</option>
+            <option value="14:00">2:00 PM</option>
+            <option value="15:00">3:00 PM</option>
+            <option value="16:00">4:00 PM</option>
+            <option value="17:00">5:00 PM</option>
+            <option value="18:00">6:00 PM</option>
+            <option value="19:00">7:00 PM</option>
+            <option value="20:00">8:00 PM</option>
+          </Form.Select>
+        </Form.Group>
+
         <Form.Group>
-          <Button type="submit" className="submit-btn rounded-pill px-4 w-100">
-            SUBMIT
-          </Button>
+          <div className="btn-div">
+            <Button type="submit" className="submit-btn rounded-pill px-4 w-100">
+              SUBMIT
+            </Button>
+          </div>
         </Form.Group>
       </Form>
     </div>

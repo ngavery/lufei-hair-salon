@@ -1,7 +1,7 @@
 .hero {
     background-image: url('../assets/herobg1.jpg');
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     background-attachment: fixed;
@@ -44,7 +44,7 @@
 }
 
 .hero-btn:hover {
-    background-color: #c29fa8 !important;
+    background-color: #ecc7d6 !important;
 }
 
 

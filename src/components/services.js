@@ -11,7 +11,7 @@ function ServicesSection() {
                     <h2 className="services-subtitle">Lufei offers cutting, styling, highlighting, and colouring.</h2>
                     <p className="services-description">Pricing is based on each service and each stylist’s individual level of expertise. Please contact us for any questions related to pricing.</p>
                     <p className="mt-3 services-more">
-                    <Link to="/services" className="text-decoration-none fw-bold">
+                    <Link to="/services" className="text-decoration-none">
                         Learn More &#8594;
                     </Link>
                     </p>

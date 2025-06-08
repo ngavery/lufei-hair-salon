@@ -1,4 +1,4 @@
-.booking-div {
+.contacthero-div {
     background-image: url('../assets/salonbooking.jpg');
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     margin-top: 10vh;
 }
 
-.booking-title {
+.contacthero-title {
     font-size: 64px;
     font-family: 'Abhaya Libre', sans-serif;
     color: white;

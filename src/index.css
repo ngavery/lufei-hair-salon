@@ -14,7 +14,10 @@ code {
 
 :root {
   --dark-color: #252525;
-  --pink-color: #F0D2DA;
-  --lilac-color: #CBC4D6;
+  --pink-color: #ffdae9;
+  --lilac-color: #ffdae9;
+  --dark-pink: #f8aecc;
+  --darker-pink: #e797b7;
+
   --soft-gray-color: #F0F0F0;
 }

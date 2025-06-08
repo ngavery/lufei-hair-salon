@@ -1,31 +1,45 @@
 .form-div {
   background-color: white;
   padding: 40px 20px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 60px auto;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-family: 'Raleway', sans-serif;
 }
 
-.form-title {
-    margin-bottom: 20px;
+.form-subtitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
     text-align: center;
-    font-size: 48px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Abhaya Libre', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.booking-form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.booking-form .form-control:focus, .booking-form .form-select:focus {
+  border-color: var(--pink-color);
+  border-width: 3px;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .submit-btn {
     margin-top: 20px;
-    margin-bottom: 0px;
-    background-color: var(--pink-color) !important;
+    margin-bottom: 10px;
+    background-color: var(--dark-pink) !important;
     border: none !important;
     font-family: 'Abel', sans-serif !important;
     font-size: 18px !important;
-    color: var(--dark-color) !important;
-    max-width: 120px;
+    color: white !important;
+    max-width: 200px;
 }
 
 .submit-btn:hover {
-    background-color: #c29fa8 !important;
+    background-color: var(--darker-pink) !important;
 }

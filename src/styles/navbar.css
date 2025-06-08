@@ -20,12 +20,16 @@
 }
 
 .nav-items .nav-link:hover {
-    color: var(--lilac-color);
+    color: var(--dark-pink);
+}
+
+.active-link {
+  color: var(--dark-pink) !important;
 }
 
 .navbar .navbar-book-btn {
     font-family: 'Abel', sans-serif;
-    background-color: var(--lilac-color);
+    background-color: var(--dark-pink);
     font-size: 18px;
     border: none;
     color: white;
@@ -33,7 +37,8 @@
 }
 
 .navbar-book-btn:hover {
-    background-color: #9e96ac !important;
+    background-color: var(--darker-pink) !important;
+    color: white !important;
 }
 
 

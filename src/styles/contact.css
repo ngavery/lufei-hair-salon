@@ -1,0 +1,48 @@
+.contact-section {
+  padding: 60px 0;
+  background-color: var(--light-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-form button {
+  background-color: var(--lilac-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #a893ae;
+  cursor: pointer;
+}
+
+.contact-info-col {
+  padding-top: 20px;
+}
+
+.hours-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.map-container iframe {
+  border-radius: 10px;
+  width: 100%;
+}

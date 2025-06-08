@@ -13,7 +13,6 @@ function HomePage() {
       <HeroSection/>
       <VisionSection/>
       <ServicesSection/>
-      <InfoSection/>
       <FooterSection/>
     </>
   );

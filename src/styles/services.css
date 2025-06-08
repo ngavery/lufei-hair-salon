@@ -1,15 +1,16 @@
 .services-div {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     min-height: fit-content;
     justify-content: center;
     align-items: center;
     color: var(--dark-color);
+    background-color: #ffe2ee;
+
 }
 
 .services-container {
-    background-color: var(--pink-color);
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -27,33 +28,34 @@
     width: 80px;
     height: 3px;
     background-color: var(--dark-color);
-    margin: 0 auto 30px auto;
+    margin: 0 auto 20px auto;
     border-radius: 4px;
 }
 
 .services-subtitle {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
 .services-description {
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     margin: 20px;
-    max-width: 1200px;
+    max-width: 800px;
 }
 
-.services-more a {
-  color: var(--dark-color);
-  font-size: 24px;
-  transition: all 0.2s ease;
+.services-more a{
+    color: var(--dark-color) !important;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .services-more a:hover {
-  text-decoration: underline;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
+    transform: translateY(-4px) !important;
+    cursor: pointer; 
 }
