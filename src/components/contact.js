@@ -1,6 +1,7 @@
 import '../styles/contact.css';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { useState } from 'react';
+import { FaPhone, FaEnvelope, FaMapPin, FaClock} from "react-icons/fa";
 
 function ContactSection() {
   const [formData, setFormData] = useState({
@@ -110,21 +111,43 @@ function ContactSection() {
             <div className="contact-info-div">
               <h1 className="contact-title">Our Information</h1>
 
-              <h2 className="contact-subtitle">Opening Hours</h2>
-              <ul className="hours-list">
-                <li>Mon–Fri: 9:00 AM – 8:00 PM</li>
-                <li>Saturday: 9:00 AM – 6:00 PM</li>
-                <li>Sunday: Closed</li>
-              </ul>
+              <div className="title-div">
+                <FaClock className="service-icon"/>
+                <div>
+                  <h2 className="contact-subtitle">Opening Hours</h2>
+                    <ul className="hours-list">
+                      <li>Mon–Fri: 9:00 AM – 8:00 PM</li>
+                      <li>Saturday: 9:00 AM – 6:00 PM</li>
+                      <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+              </div>
 
-              <h2 className="contact-subtitle">Address</h2>
-                <p>75 Laurier Avenue East, Ottawa, ON K1N 6N5</p>
+              
+              <div className="title-div">
+                <FaMapPin className="service-icon"/>
+                <div>
+                  <h2 className="contact-subtitle">Address</h2>
+                  <p className="description">75 Laurier Avenue East, Ottawa, ON K1N 6N5</p>
+                </div>
+              </div>
 
-              <h2 className="contact-subtitle">Email address</h2>
-                <p>info@lufei.com</p>
+              <div className="title-div">
+                <FaEnvelope className="service-icon"/>
+                <div>
+                  <h2 className="contact-subtitle">Email address</h2>
+                  <p className="description">info@lufei.com</p>
+                  </div>
+              </div>
+              
+              <div className="title-div">
+                <FaPhone className="service-icon"/>
+                <div>
+                  <h2 className="contact-subtitle">Phone</h2>
+                  <p className="description">(613) 555-1234</p>
+                </div>
+              </div>
 
-              <h2 className="contact-subtitle">Phone</h2>
-                <p>(613) 555-1234</p>
               <div className="map-container mt-4">
                 <iframe
                   title="Google Maps"

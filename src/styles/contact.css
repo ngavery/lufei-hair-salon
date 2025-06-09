@@ -67,10 +67,25 @@
   padding-top: 20px;
 }
 
+.title-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-icon {
+    color: var(--dark-pink);
+    font-size: 24px;
+
+}
+
 .hours-list {
   list-style: none;
   padding-left: 0;
-  margin-bottom: 20px;
+}
+
+.description {
 }
 
 .map-container iframe {

@@ -43,18 +43,13 @@
   align-items: center;
 }
 
-.arrow-icon {
-  color: white;
-  font-size: 20px;
-}
-
 .services-book-btn {
     margin-top: 50px;
     font-family: 'Abel', sans-serif;
     background-color: var(--dark-pink);
     font-size: 22px !important;
     border: none;
-    width: 300px;
+    width: 350px;
     height: 50px;
     color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -63,4 +58,8 @@
 .services-book-btn:hover {
     background-color: var(--darker-pink) !important;
 
+}
+
+.icon {
+  margin-left: 10px;
 }

@@ -1,6 +1,8 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../styles/moreservices.css';
+import { FaArrowRight } from "react-icons/fa";
+
 
 const services = [
   {
@@ -54,7 +56,8 @@ function MoreServices() {
         <div className="btn-div">
             <Link to="/book">
               <button className="services-book-btn rounded-pill px-4">
-                    BOOK AN APPOINTMENT <i className="fa-solid fa-arrow-right arrow-icon"></i>
+                    BOOK AN APPOINTMENT
+                    <FaArrowRight className="icon" />
               </button>
             </Link>
         </div>

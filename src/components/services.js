@@ -1,6 +1,8 @@
 import '../styles/services.css';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { FaArrowRight } from "react-icons/fa";
+
 
 function ServicesSection() {
     return (
@@ -12,7 +14,9 @@ function ServicesSection() {
                     <p className="services-description">Pricing is based on each service and each stylist’s individual level of expertise. Please contact us for any questions related to pricing.</p>
                     <p className="mt-3 services-more">
                     <Link to="/services" className="text-decoration-none">
-                        Learn More &#8594;
+                        Learn More
+                        <FaArrowRight className="icon" />
+                        
                     </Link>
                     </p>
                 </Container>
