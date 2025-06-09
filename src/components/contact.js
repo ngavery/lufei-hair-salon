@@ -111,7 +111,7 @@ function ContactSection() {
             <div className="contact-info-div">
               <h1 className="contact-title">Our Information</h1>
 
-              <div className="title-div">
+              <div className="title-div1">
                 <FaClock className="service-icon"/>
                 <div>
                   <h2 className="contact-subtitle">Opening Hours</h2>
