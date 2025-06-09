@@ -4,16 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom'; // ✅ Add this
+import { HashRouter } from 'react-router-dom'; // ⬅️ use HashRouter instead
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}> {/* ✅ Add this */}
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
 reportWebVitals();
+
 
