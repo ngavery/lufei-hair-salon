@@ -43,6 +43,11 @@
   align-items: center;
 }
 
+.arrow-icon {
+  color: white;
+  font-size: 20px;
+}
+
 .services-book-btn {
     margin-top: 50px;
     font-family: 'Abel', sans-serif;

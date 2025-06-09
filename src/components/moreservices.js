@@ -54,7 +54,7 @@ function MoreServices() {
         <div className="btn-div">
             <Link to="/book">
               <button className="services-book-btn rounded-pill px-4">
-                    BOOK AN APPOINTMENT
+                    BOOK AN APPOINTMENT <i className="fa-solid fa-arrow-right arrow-icon"></i>
               </button>
             </Link>
         </div>
